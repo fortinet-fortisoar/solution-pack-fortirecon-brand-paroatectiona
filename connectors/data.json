@@ -1,0 +1,13 @@
+[
+    {
+        "name": "fortinet-fortirecon-brand-protection",
+        "label": "Fortinet FortiRecon Brand Protection",
+        "category": "Attack Surface Management",
+        "description": "FortiRecon is a Digital Risk Protection Service (DRPS) product that provides an outside-the-network view to the risks posed to your enterprise.",
+        "publisher": null,
+        "operation_roles": [],
+        "configurations": [],
+        "dataImports": [],
+        "install_mode": "rpm"
+    }
+]

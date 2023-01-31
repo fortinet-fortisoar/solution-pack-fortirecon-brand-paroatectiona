@@ -1,0 +1,44 @@
+{
+    "name": "fortiReconBrandProtection",
+    "version": "1.0.0",
+    "fsrMinCompatibility": "7.2.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "FortiRecon Brand Protection",
+    "dependencies": [
+        {
+            "name": "sOARFramework",
+            "type": "solutionpack",
+            "label": "SOAR Framework",
+            "minVersion": null
+        },
+        {
+            "name": "socSimulator",
+            "type": "solutionpack",
+            "label": "SOC Simulator",
+            "minVersion": null
+        }
+    ],
+    "prerequisite": null,
+    "publisher": "Fortinet",
+    "description": "This solution pack demonstrates the",
+    "help": null,
+    "category": [],
+    "supportInfo": null,
+    "iconLarge": null,
+    "date": "2023-01-31T05:50:45+00:00",
+    "contents": {
+        "playbooks": [
+            {
+                "name": "02 - Use Case - FortiRecon Brand Protection"
+            }
+        ],
+        "globalVariables": [],
+        "connectors": [
+            {
+                "name": "Fortinet FortiRecon Brand Protection",
+                "apiName": "fortinet-fortirecon-brand-protection"
+            }
+        ]
+    }
+}
