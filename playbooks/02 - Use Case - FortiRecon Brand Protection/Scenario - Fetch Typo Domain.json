@@ -20,7 +20,7 @@
             "name": "Get Created Alerts IDs",
             "description": null,
             "arguments": {
-                "@id": "{{vars.steps.Create_Demo_Alerts | json_query('[].\"@id\"')}}"
+                "@id": "{{vars.createdAlertsIRIList}}"
             },
             "status": null,
             "top": "570",
@@ -70,7 +70,8 @@
             "name": "Configuration",
             "description": null,
             "arguments": {
-                "useMockOutput": "true"
+                "useMockOutput": "{{globalVars.Demo_mode}}",
+                "createdAlertsIRIList": "[]"
             },
             "status": null,
             "top": "165",
@@ -102,6 +103,7 @@
             "name": "Create Demo Alerts",
             "description": null,
             "arguments": {
+                "when": "{{vars.steps.Fetch_Typo_Domain.data.hits | length > 0}}",
                 "for_each": {
                     "item": "{{vars.steps.Fetch_Typo_Domain.data.hits}}",
                     "__bulk": true,
@@ -126,7 +128,7 @@
                         "\/api\/3\/tags\/Typo Squatting"
                     ],
                     "sourcedata": "{{vars.item | toJSON}}",
-                    "description": "<p>The status of the following typo domain found to be Malicious:<\/p>\n<br>\n<table>\n<tbody>\n<tr>\n<th><b>Typo Domain<\/b><\/th>\n<td>{{vars.item['similar_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Original Domain<\/b><\/th>\n<td>{{vars.item['original_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Severity Score<\/b><\/th>\n<td>{{vars.item['score']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Status<\/b><\/th>\n<td>{{vars.item['suspicious_status']}}<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br>\n<p>Please raise takedown request for this.<\/p>\n",
+                    "description": "<p>The status of the following typo domain found to be Malicious:<\/p>\n<br>\n<table>\n<tbody>\n<tr>\n<th><b>Typo Domain<\/b><\/th>\n<td>{{vars.item['similar_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Original Domain<\/b><\/th>\n<td>{{vars.item['original_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Severity Score<\/b><\/th>\n<td>{{vars.item['score']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Status<\/b><\/th>\n<td>{{vars.item['suspicious_status']}}<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br>\n<p>Please verify and raise a request to takedown this typo domain.<\/p>\n",
                     "ackSlaStatus": "\/api\/3\/picklists\/72979f64-e8b9-4888-a965-957e0ec24818",
                     "respSlaStatus": "\/api\/3\/picklists\/72979f64-e8b9-4888-a965-957e0ec24818",
                     "priorityWeight": 1,
@@ -140,7 +142,9 @@
                 "fieldOperation": {
                     "recordTags": "Overwrite"
                 },
-                "step_variables": []
+                "step_variables": {
+                    "createdAlertsIRIList": "{{vars.result | json_query('[].\"@id\"')}}"
+                }
             },
             "status": null,
             "top": "435",

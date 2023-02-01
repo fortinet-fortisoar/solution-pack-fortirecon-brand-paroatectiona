@@ -1,7 +1,7 @@
 {
     "name": "fortiReconBrandProtection",
     "version": "1.0.0",
-    "fsrMinCompatibility": "7.2.0",
+    "fsrMinCompatibility": "7.2.1",
     "type": "solutionpack",
     "local": true,
     "label": "FortiRecon Brand Protection",
@@ -21,23 +21,39 @@
     ],
     "prerequisite": null,
     "publisher": "Fortinet",
-    "description": "This solution pack demonstrates the",
-    "help": null,
-    "category": [],
+    "description": "This FortiSOAR Solution Pack for FortiRecon's Brand Protection offering helps customers to readily orchestrate the investigation and alerting of brand impersonation scenarios like Typo Squatted Domains and Rogue Mobile Apps discovered by FortiRecon.",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-fortirecon-brand-protection/blob/develop/README.md",
+    "category": [
+        "Threat Intelligence"
+    ],
     "supportInfo": null,
     "iconLarge": null,
-    "date": "2023-01-31T05:50:45+00:00",
+    "date": "2023-02-01T07:12:50+00:00",
     "contents": {
         "playbooks": [
             {
                 "name": "02 - Use Case - FortiRecon Brand Protection"
             }
         ],
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "id": 16,
+                "name": "Demo_mode",
+                "value": "true",
+                "default_value": "false"
+            }
+        ],
         "connectors": [
             {
                 "name": "Fortinet FortiRecon Brand Protection",
                 "apiName": "fortinet-fortirecon-brand-protection"
+            }
+        ],
+        "recordSets": [
+            {
+                "name": "Scenario",
+                "apiName": "scenario",
+                "count": 2
             }
         ]
     }
