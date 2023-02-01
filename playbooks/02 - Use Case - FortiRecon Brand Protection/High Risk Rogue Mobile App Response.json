@@ -28,8 +28,8 @@
                     "records": "{{vars.alertIRI}}"
                 },
                 "resource": {
-                    "name": "Raise Rogue Mobile App Takedown Request",
-                    "type": "\/api\/3\/picklists\/a6064def-fc9d-4d52-ac45-e0a55679c140",
+                    "name": "Raise Takedown Request - {{vars.alertSourceData.name}}",
+                    "type": "\/api\/3\/picklists\/a4f387b1-ff5f-4fc6-b1eb-c2025bfa7089",
                     "__link": {
                         "alerts": "{{vars.alertIRI}}"
                     },

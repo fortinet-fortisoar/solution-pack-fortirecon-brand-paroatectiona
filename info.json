@@ -22,7 +22,7 @@
     "prerequisite": null,
     "publisher": "Fortinet",
     "description": "This FortiSOAR Solution Pack for FortiRecon's Brand Protection offering helps customers to readily orchestrate the investigation and alerting of brand impersonation scenarios like Typo Squatted Domains and Rogue Mobile Apps discovered by FortiRecon.",
-    "help": "https://github.com/fortinet-fortisoar/solution-pack-fortirecon-brand-protection/blob/develop/README.md",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-fortirecon-brand-protection/blob/release/1.0.0/README.md",
     "category": [
         "Threat Intelligence"
     ],
@@ -30,6 +30,11 @@
     "iconLarge": null,
     "date": "2023-02-01T07:24:39+00:00",
     "contents": {
+        "picklistNames": [
+            {
+                "name": "TaskType"
+            }
+        ],
         "playbooks": [
             {
                 "name": "02 - Use Case - FortiRecon Brand Protection"

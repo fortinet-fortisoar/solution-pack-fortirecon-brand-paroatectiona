@@ -106,7 +106,7 @@
                     "batch_size": 100
                 },
                 "resource": {
-                    "name": "Rogue Mobile App Found - {{vars.item.name}}",
+                    "name": "Rogue Mobile App Detected - {{vars.item.name}}",
                     "type": "\/api\/3\/picklists\/0b3ef6f9-eb29-4ab9-ac98-98364bd1a3aa",
                     "state": "\/api\/3\/picklists\/a1bac09b-1441-45aa-ad1b-c88744e48e72",
                     "source": "FortiRecon Brand Protection",

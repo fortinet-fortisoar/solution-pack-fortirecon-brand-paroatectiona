@@ -112,7 +112,7 @@
                     "batch_size": 100
                 },
                 "resource": {
-                    "name": "Typo Domain Found - {{vars.item['similar_domain']}}",
+                    "name": "Typo Domain Detected - {{vars.item['similar_domain']}}",
                     "type": "\/api\/3\/picklists\/0b3ef6f9-eb29-4ab9-ac98-98364bd1a3aa",
                     "state": "\/api\/3\/picklists\/a1bac09b-1441-45aa-ad1b-c88744e48e72",
                     "domain": "{{vars.item['similar_domain']}}",
@@ -128,7 +128,7 @@
                         "\/api\/3\/tags\/Typo Squatting"
                     ],
                     "sourcedata": "{{vars.item | toJSON}}",
-                    "description": "<p>The status of the following typo domain found to be Malicious:<\/p>\n<br>\n<table>\n<tbody>\n<tr>\n<th><b>Typo Domain<\/b><\/th>\n<td>{{vars.item['similar_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Original Domain<\/b><\/th>\n<td>{{vars.item['original_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Severity Score<\/b><\/th>\n<td>{{vars.item['score']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Status<\/b><\/th>\n<td>{{vars.item['suspicious_status']}}<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br>\n<p>Please verify and raise a request to takedown this typo domain.<\/p>\n",
+                    "description": "<p>The newly detected typo domain **{{vars.item['similar_domain']}}** found to be Highly Suspicious. Refer to the following details of the same:<\/p>\n<br>\n<table>\n<tbody>\n<tr>\n<th><b>Typo Domain<\/b><\/th>\n<td>{{vars.item['similar_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Original Domain<\/b><\/th>\n<td>{{vars.item['original_domain']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Severity Score<\/b><\/th>\n<td>{{vars.item['score']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Status<\/b><\/th>\n<td>{{vars.item['suspicious_status']}}<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br>\n<p>Please verify and raise a request to takedown this typo domain.<\/p>\n",
                     "ackSlaStatus": "\/api\/3\/picklists\/72979f64-e8b9-4888-a965-957e0ec24818",
                     "respSlaStatus": "\/api\/3\/picklists\/72979f64-e8b9-4888-a965-957e0ec24818",
                     "priorityWeight": 1,
