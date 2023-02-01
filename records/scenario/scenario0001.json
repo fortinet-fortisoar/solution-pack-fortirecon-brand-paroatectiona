@@ -45,12 +45,12 @@
                 }
             ]
         },
-        "createdAlertsID": "[\"\/api\/3\/alerts\/bbec70f5-f494-443c-b441-0ba34e8748d1\", \"\/api\/3\/alerts\/935730ac-58f3-4cc0-823a-3140955847ab\", \"\/api\/3\/alerts\/2da014a3-5f8b-452a-8f26-bacd9be72895\"]",
+        "createdAlertsID": null,
         "uuid": "a269ba67-5a68-412b-adac-31b4d3991ae1",
         "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
         "createDate": 1675078960.466311,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
-        "modifyDate": 1675235131.977543,
+        "modifyDate": 1675236190.686028,
         "id": 3,
         "recordTags": [
             "FortiRecon",
