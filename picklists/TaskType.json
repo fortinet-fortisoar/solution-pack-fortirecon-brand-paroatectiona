@@ -1,0 +1,20 @@
+{
+    "@context": "\/api\/3\/contexts\/PicklistName",
+    "@id": "\/api\/3\/picklist_names\/b837e375-76af-4ba5-b6a1-bd1c3cd27292",
+    "@type": "PicklistName",
+    "name": "TaskType",
+    "system": false,
+    "picklists": [
+        {
+            "@id": "\/api\/3\/picklists\/a4f387b1-ff5f-4fc6-b1eb-c2025bfa7089",
+            "@type": "Picklist",
+            "itemValue": "Takedown Request",
+            "orderIndex": 10,
+            "color": null,
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/b837e375-76af-4ba5-b6a1-bd1c3cd27292",
+            "uuid": "a4f387b1-ff5f-4fc6-b1eb-c2025bfa7089"
+        }
+    ],
+    "uuid": "b837e375-76af-4ba5-b6a1-bd1c3cd27292"
+}
