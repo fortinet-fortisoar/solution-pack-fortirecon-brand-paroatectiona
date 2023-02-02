@@ -8,7 +8,7 @@ The **FortiRecon Brand Protection** solution pack contains the following resourc
 
 | Connector Name | Description |
 | :-             | :-          |
-| Fortinet FortiRecon Brand Protection | Fetches typo domain and rouge mobile apps |
+| Fortinet FortiRecon Brand Protection | Detects typo domain and rouge mobile apps |
 
 ## Global Variables
 
