@@ -25,9 +25,9 @@ Navigate to demo alert and note the following:
     - Source IP
     - Also indicators get created for typo domain and Source IP Address
 
-- The response playbooks `High Risk Typo Domain Response` runs on update of alert status when all the indicators are extracted and enriched
+- The response playbook `High Risk Typo Domain Response` runs on the update of alert status when all the indicators are extracted and enriched
     - This playbook creates a manual task of type *Takedown Request* to raise takedown request for high risk typo domain
-    - Once typo domain takedown request raised, user should mark task as *Completed*
+    - Once a typo domain takedown request is raised, the user should mark the task as *Completed*
 
     ![Typo Domain Alert](./res/typo-domain-alert.png)
 
@@ -40,7 +40,7 @@ Navigate to demo alert and note the following:
 - The demo alert created is an example of FortiRecon Brand Protection detecting a *Rogue Mobile App*
 - The alert is of type *Phishing*
 - The reported alert contains the following information among other related sources data:
-    - Rogue Moblie App Details:
+    - Rogue Mobile App Details:
         - Name
         - Source
         - Developer
@@ -50,9 +50,9 @@ Navigate to demo alert and note the following:
     - Source
     - Source ID
 
-- The response playbooks `High Risk Rogue Mobile App Response` runs on update of alert status when all the indicators are extracted and enriched
+- The response playbook `High Risk Rogue Mobile App Response` runs on the update of alert status when all the indicators are extracted and enriched
     - This playbook creates a manual task of type *Takedown Request* to raise takedown request for high risk rogue mobile app
-    - Once rogue moile app takedown request raised, user should mark task as *Completed*
+    - Once a rogue mobile app takedown request is raised, the user should mark the task as *Completed*
 
     ![Rogue Mobile App Alert](./res/rogue-mobile-app-alert.png)
 
