@@ -2,7 +2,7 @@
 |----------------------|
 # Contents
 
-The **FortiRecon Brand Protection** solution pack contains the following resources.
+The **FortiRecon Brand Protection** solution pack contains the following resources:
 
 ## Connectors
 
@@ -19,8 +19,8 @@ The **FortiRecon Brand Protection** solution pack contains the following resourc
 ## Record Sets
 | Scenario          | Description |
 | :-                | :-          |
-|Typo Squatting Domain | Demonstrates the scenario where FortiRecon Brand Protection detects a typo squatted domain whose severity score is **High**|
-|Rogue Mobile App| Demonstrates the scenario where FortiRecon Brand Protection detects a mobile app whose status is **RogueApp** |
+|Typo Squatting Domain Detected | Demonstrates the scenario where FortiRecon Brand Protection detects a typo squatted domain whose severity score is **High**|
+|Rogue Mobile App Detected | Demonstrates the scenario where FortiRecon Brand Protection detects a mobile app whose status is **RogueApp** |
 
 ## Playbook Collection
 
