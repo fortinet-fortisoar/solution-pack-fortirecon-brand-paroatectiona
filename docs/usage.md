@@ -4,7 +4,7 @@
 
 Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/usage.md) to understand how to simulate and reset scenarios.
 
-To understand the process FortiSOAR follows to respond to alerts related to typo squatted domain and rogue mobile app, we have included a scenario &mdash; **Typo Squatting Domain Detected** and **Rogue Mobile App Detected** with this solution pack.
+To understand the process FortiSOAR follows to respond to alerts related to typo squatted domains and rogue mobile apps, we have included a scenario &mdash; **Typo Squatting Domain Detected** and **Rogue Mobile App Detected** with this solution pack.
 
 ## Typo Squatting Domain Detected
 

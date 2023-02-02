@@ -114,11 +114,7 @@
                     "severity": "\/api\/3\/picklists\/40187287-89fc-4e9c-b717-e9443d57eedb",
                     "sourceId": "{{vars.item.id}}",
                     "__replace": "false",
-                    "recordTags": [
-                        "\/api\/3\/tags\/FortiRecon",
-                        "\/api\/3\/tags\/Brand Protection",
-                        "\/api\/3\/tags\/Rogue Mobile App"
-                    ],
+                    "recordTags": "{% set _list = [\"FortiRecon\",\"Brand Protection\",\"Rogue Mobile App\"] %}{% set _dummy = _list.append(vars.item.keyword) %}{{_list}}",
                     "sourcedata": "{{vars.item | toJSON}}",
                     "description": "<p>FortiRecon Brand Protection has detected the following rogue mobile app:<\/p>\n<br>\n<table>\n<tbody>\n<tr>\n<th><b>Name<\/b><\/th>\n<td>{{vars.item.name}}<\/td>\n<\/tr>\n<tr>\n<th><b>Source<\/b><\/th>\n<td>{{vars.item['source_name']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Developer<\/b><\/th>\n<td>{{vars.item['developer_name']}}<\/td>\n<\/tr>\n<tr>\n<th><b>Status<\/b><\/th>\n<td>{{vars.item.status}}<\/td>\n<\/tr>\n<tr>\n<th><b>Size<\/b><\/th>\n<td>{{vars.item.size}}<\/td>\n<\/tr>\n<tr>\n<th><b>Download Count<\/b><\/th>\n<td>{{vars.item['download_count']}}<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br>\n<p>Please verify and raise rogue mobile app takedown request.<\/p>\n",
                     "ackSlaStatus": "\/api\/3\/picklists\/72979f64-e8b9-4888-a965-957e0ec24818",

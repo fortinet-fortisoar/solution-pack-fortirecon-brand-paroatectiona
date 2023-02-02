@@ -2,7 +2,7 @@
     {
         "@type": "Scenario",
         "configuration": null,
-        "title": "Rogue Mobile App",
+        "title": "Rogue Mobile App Detected",
         "description": "FortiRecon Brand Protection detects a mobile app whose status is **RogueApp** <br>\nObserve the following\n\n* Reported Information (Name, Source, Developer, Status, Size and Download Count) is presented as a handy reference\n* On receiving information from FortiRecon related to the Rogue Mobile App possibility, High Risk Rogue Mobile App Response Playbook activates and creates manual task to raise rogue mobile app takedown request.",
         "steps": {
             "Steps": [
@@ -31,7 +31,7 @@
     {
         "@type": "Scenario",
         "configuration": null,
-        "title": "Typo Squatting Domain",
+        "title": "Typo Squatting Domain Detected",
         "description": "FortiRecon Brand Protection detects a typo squatted domain whose severity score is **High** <br>\nObserve the following\n\n* Reported Information (Typo Domain, Original Domain, Severity Score and Status) is presented as a handy reference\n* On receiving information from FortiRecon related to Typo Squatting possibility, High Risk Typo Domain Response Playbook activates and creates manual tasks to raise typo domain takedown request.",
         "steps": {
             "Steps": [
