@@ -1,0 +1,11 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "02 - Use Case - FortiRecon Brand Protection",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "acbb32ac-2907-4f34-8d0c-81e2d1fe1513",
+    "deletedAt": null,
+    "recordTags": []
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "@type": "Scenario",
+        "configuration": null,
+        "title": "Rogue Mobile App Detected",
+        "description": "FortiRecon Brand Protection detects a mobile app whose status is **RogueApp** <br>\nObserve the following\n\n* Reported Information (Name, Source, Developer, Status, Size and Download Count) is presented as a handy reference\n* On receiving information from FortiRecon related to the Rogue Mobile App possibility, High Risk Rogue Mobile App Response Playbook activates and creates manual task to raise rogue mobile app takedown request.",
+        "steps": {
+            "Steps": [
+                {
+                    "name": "Rogue Mobile App Response",
+                    "type": "executePlaybook",
+                    "playbookIRI": "\/api\/3\/workflows\/c7d6def7-4c09-4de6-8fd7-ed4c9453a21e",
+                    "preCreateMessage": "Creating demo alert record when rogue mobile app found",
+                    "postCreateMessage": "",
+                    "waitTimeforNextStep": "0"
+                }
+            ]
+        },
+        "createdAlertsID": null,
+        "uuid": "80f23365-e372-4ddd-8cdb-4bd7afa697de",
+        "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+        "createDate": 1675149424.747801,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1675235077.540043,
+        "id": 4,
+        "recordTags": [
+            "FortiRecon",
+            "Brand Protection"
+        ]
+    },
+    {
+        "@type": "Scenario",
+        "configuration": null,
+        "title": "Typo Squatting Domain Detected",
+        "description": "FortiRecon Brand Protection detects a typo squatted domain whose severity score is **High** <br>\nObserve the following\n\n* Reported Information (Typo Domain, Original Domain, Severity Score and Status) is presented as a handy reference\n* On receiving information from FortiRecon related to Typo Squatting possibility, High Risk Typo Domain Response Playbook activates and creates manual tasks to raise typo domain takedown request.",
+        "steps": {
+            "Steps": [
+                {
+                    "name": "High Risk Typo Domain Response",
+                    "type": "executePlaybook",
+                    "playbookIRI": "\/api\/3\/workflows\/7eda9a72-fe25-4404-b62f-150ab3ebe4b4",
+                    "preCreateMessage": "Creating demo alert record for newly found high risk typo domain",
+                    "postCreateMessage": "",
+                    "waitTimeforNextStep": "0"
+                }
+            ]
+        },
+        "createdAlertsID": null,
+        "uuid": "a269ba67-5a68-412b-adac-31b4d3991ae1",
+        "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+        "createDate": 1675078960.466311,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1675236190.686028,
+        "id": 3,
+        "recordTags": [
+            "FortiRecon",
+            "Brand Protection"
+        ]
+    }
+]
