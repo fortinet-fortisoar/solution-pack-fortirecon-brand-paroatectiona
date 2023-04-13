@@ -7,9 +7,9 @@
 
 # Overview
 
-The **FortiRecon Brand Protection Solution Pack** offering helps customers to readily orchestrate the investigation and alerting of brand impersonation scenarios like Typo Squatted Domains and Rogue Mobile Apps discovered by FortiRecon.
+The **FortiRecon Brand Protection**  solution pack helps customers readily orchestrate the investigation and alert generation of brand impersonation scenarios like *Typo Squatted Domains* and *Rogue Mobile Apps* discovered by FortiRecon.
 
-This solution pack includes scenarios and use case playbooks that respond to the alerts raised for Typo Domain and Rogue Mobile App and suggests analyst to raise takedown request for high risk typo domains or rogue mobile apps.
+This solution pack includes scenarios and use case playbooks that respond to the alerts raised for Typo Domain and Rogue Mobile App and suggests analysts to raise takedown request for high risk alerts.
 
 # Next Steps
 

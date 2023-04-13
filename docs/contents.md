@@ -1,5 +1,6 @@
 | [Home](../README.md) |
 |----------------------|
+
 # Contents
 
 The **FortiRecon Brand Protection** solution pack contains the following resources:
@@ -30,10 +31,13 @@ The **FortiRecon Brand Protection** solution pack contains the following resourc
 
 | Playbook Name                                                          | Description                                                                       |
 |:-----------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-| Scenario - Fetch Typo Domain                                          | Fetches the list of high-severity typo squatted domains discovered by FortiRecon for the specified organisation and creates alerts for the same |
-| Scenario - Fetch Rogue Mobile Apps                                    | Fetches the list of Rogue Mobile Apps discovered by FortiRecon for the specified organisation and creates alerts for the same |
+| Scenario - Fetch Typo Domain                                          | Fetches the list of high-severity typo squatted domains discovered by FortiRecon for the specified organization and creates alerts for the same |
+| Scenario - Fetch Rogue Mobile Apps                                    | Fetches the list of Rogue Mobile Apps discovered by FortiRecon for the specified organization and creates alerts for the same |
 | High Risk Typo Domain Response                                   | Creates a manual task to raise takedown requests for high risk typo domain |
 | High Risk Rogue Mobile App Response               | Creates a manual task to raise takedown requests for high risk rogue mobile app |
 
 
 >**Warning:** We recommend you clone these playbooks before customizing to avoid information loss while upgrading the solution pack.
+
+| [Installation](./docs/setup.md#installation) | [Configuration](./docs/setup.md#configuration) | [Usage](./docs/usage.md) |
+|--------------------------------------------|----------------------------------------------|------------------------|
