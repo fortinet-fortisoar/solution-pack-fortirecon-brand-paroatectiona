@@ -1,5 +1,6 @@
 | [Home](../README.md) |
 |----------------------|
+
 # Installation
 
 1. To install a solution pack, click **Content Hub** > **Discover**.   
@@ -22,3 +23,6 @@ For optimal performance of the **FortiRecon Brand Protection** solution pack, yo
 
 - Fortinet FortiRecon Brand Protection connectors to get high risk typo domain and rogue mobile apps
     - To configure and use the Fortinet FortiRecon Brand Protection connector, refer to [Configuring Fortinet FortiRecon Brand Protection](https://docs.fortinet.com/document/fortisoar/1.0.0/fortinet-fortirecon-brand-protection/475/fortinet-fortirecon-brand-protection-v1-0-0)
+
+| [Usage](./docs/usage.md) | [Contents](./docs/contents.md) |
+|--------------------------------------------|----------------------------------------------|
